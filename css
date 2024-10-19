@@ -1,0 +1,17 @@
+h1, p {
+  text-align: center;
+}
+form label {
+  display: block;
+  margin: 1em 0;
+}
+select {
+  display: block;
+}
+input {
+  margin: auto;
+}
+.radio-buttons {
+  display: inline;
+
+}
