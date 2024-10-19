@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+  <head>
+    <meta lang="en">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+    <title>Survey Form Project</title>
+  </head>
+  <body>
+    <h1 id="title">Functionally Similar Survey Form</h1>
+    <p id="description">This is a description of the Survey form</p>
+    <form id="survey-form">
+      <label for="name"  id="name-label">Name
+        <input id="name" placeholder="John Smith" type="text" required />
+      </label>
+      <label id="email-label"> Email
+        <input id="email" placeholder="example@mail.com" type="email" required />
+      </label>
+      <label for="number" id="number-label"> Age (optional)
+        <input id="number" min="1" max="120" placeholder="42" type="number" />
+      </label>
+      <label id="dropdown-label">What do you do with surveys?
+<select id="dropdown" required>
+  <option> Please select your answer</option>
+  <option>Fill them out immediately</option>
+  <option>Throw them away</option>
+</select>
+      </label>
+      <div class="radio-buttons" >
+      <label for="pet-radio"> Are you a cat or dog person?
+        <br><input type="radio" name="pet-radio" checked value="cat-person" /> Cat Person
+        <br><input type="radio" name="pet-radio" value="dog-person" /> Dog Person
+<br><input  type="radio" name="pet-radio" value="both" /> Both!
+<br><input type="radio" name="pet-radio" value="neither" /> Neither
+      </label></div>
+
+      <label for="checkbox">Select your favorite foods</label>
+      <input id="checkbox" type="checkbox" value="pizza" /> Pizza </br>
+      <input id="checkbox" type="checkbox" value="pasta" /> Pasta</br>
+      <input id="checkbox" type="checkbox" value="soup" /> Soup</br>
+      <input id="checkbox" type="checkbox" value="Salad" /> Salad</br>
+      <input id="checkbox" type="checkbox" value="Other" /> Other</br>
+      </label>
+      <label> Anything else you'd like to share? </label>
+        <textarea></textarea> </br>
+         <button type="submit" id="submit">
+      Submit
+    </button>
+    </form>
+   
+  </body>
+</html>
